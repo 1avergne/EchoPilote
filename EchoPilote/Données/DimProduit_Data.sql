@@ -1,3 +1,6 @@
+delete from [echo].[DimProduit]
+where [ProduitID] < 36
+
 insert into [echo].[DimProduit] (ProduitID, ProduitDesc, GammeDesc, TypeProduitDesc)
 values (1, 'Pantalon style Battle dress', 'Enfant', 'Habillement')
 ,(2, 'Adaptateur K7 VHS/VHS-C', 'HI-FI', 'Maison')

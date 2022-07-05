@@ -1,3 +1,6 @@
+delete from [echo].[DimCommercial]
+where [CommercialID] < 33
+
 insert into [echo].[DimCommercial] (CommercialID, CommercialDesc, SuccursaleDesc, PaysDesc)
 values (1, 'Douglas Chope', 'Boston', 'États-Unis')
 ,(2, 'Nicolas Galliot', 'Bordeaux', 'France')

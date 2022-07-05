@@ -1,3 +1,4 @@
+truncate table [echo].[FaitObjectif]
 insert into [echo].[FaitObjectif] (CommercialID, Annee, Objectif)
 values (1, 2013, 90000)
 ,(1, 2014, 120000)

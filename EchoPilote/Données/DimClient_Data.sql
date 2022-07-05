@@ -1,3 +1,6 @@
+delete from [echo].[DimClient]
+where [ClientID] < 104
+
 insert into [echo].[DimClient] (ClientID, ClientDesc, TypeClientDesc, VilleClientDesc, CodePostalClient, PaysClientDesc)
 values (1, 'Botanechi K.K. 1', 'Indépendants', 'Tokyo', '2567', 'Japon')
 ,(2, 'Spécial''Affair 4', 'Grossistes', 'Calais', '372840', 'France')
